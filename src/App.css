@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+body {
+    color: #333;
+    margin: 0;
+    background: -webkit-radial-gradient(#fff, #bbb);
+    background: -o-radial-gradient(#fff, #bbb);
+    background: radial-gradient(#fff, #bbb);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.video-wrapper {
+    margin: 30px auto;
+    box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.controls {
+    font-size: 20px;
+    margin: 30px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.controls button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: 1px solid #888;
+    background: #eee;
+    cursor: pointer;
+    transition-duration: 0.25s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.controls button:hover {
+    border-color: black;
+    color: #000;
+    background-color: #fff;
+}
+
+.credit-wrapper {
+    font-size: 14px;
+}
+
+.credit-wrapper a {
+    display: inline-block;
+    text-decoration: none;
+    margin: auto 10px;
+    color: #331a8b;
+}
+
+.credit-wrapper a:hover {
+    transition-duration: 0.5s;
+    border-bottom: 1px solid #331a8b88;
 }
