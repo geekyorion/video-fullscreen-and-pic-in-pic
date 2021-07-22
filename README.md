@@ -1,6 +1,6 @@
 # video-fullscreen-and-pic-in-pic
 
-React implementation of HTML5 Video API features like Picture in Picture and Full Screen API
+React implementation of HTML5 Video API features like Picture in Picture and Full Screen API. [Visit Now](https://geekyorion.github.io/video-fullscreen-and-pic-in-pic/).
 
 ## Getting Started with Create React App
 
