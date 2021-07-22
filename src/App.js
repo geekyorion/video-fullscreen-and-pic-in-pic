@@ -51,7 +51,7 @@ const App = () => {
     <div className="wrapper">
 
       <div className="video-wrapper">
-        <video controls preload="auto" width="800" ref={videoRef}>
+        <video controls preload="auto" ref={videoRef}>
           <source
             src="https://assets.mixkit.co/videos/preview/mixkit-forest-stream-in-the-sunlight-529-large.mp4"
             type="video/mp4"
@@ -61,7 +61,7 @@ const App = () => {
       </div >
 
       <div className="controls">
-        Custom Control Implmentation:
+        Custom Control Implmentation of <br />
         <button onClick={handleFullScreen}>Toggle Full Screen</button>
         <button onClick={handlePicInPic}>Toggle Picure In Picture View</button>
       </div>

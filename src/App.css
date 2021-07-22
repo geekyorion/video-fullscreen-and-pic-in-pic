@@ -11,8 +11,13 @@ body {
 }
 
 .video-wrapper {
-    margin: 30px auto;
+    margin: 30px 10px;
     box-sizing: border-box;
+}
+
+.video-wrapper video {
+    width: 100%;
+    max-width: 800px;
 }
 
 .controls {
